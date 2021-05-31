@@ -32,7 +32,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Si-VERSE</strong>
+        <strong>Set realistic goals, keep re-evaluating, and be consistent.</strong>
       </v-card-text>
     </v-card>
   </v-footer>
