@@ -307,14 +307,14 @@
                         v-for="e in profileData.courses"
                         :key="e.school"
                       >
-                        <span :slot="$vuetify.breakpoint.xs ? '' : 'opposite'" style="font-size: small;">{{e.startdate}} - {{e.enddate}}</span>
+                        <span :slot="$vuetify.breakpoint.xs ? '' : 'opposite'" style="font-size: small;">{{e.enddate}}</span>
                         <v-expansion-panels flat>
                           <v-expansion-panel >
                             <v-expansion-panel-header >
                               <v-layout row wrap >
                               
                                 <v-flex xs12 md8>
-                                <div class="caption grey--text">{{e.instructor}} at {{e.institute}}</div>
+                                <div class="caption grey--text">{{e.instructor}} {{e.institute}}</div>
                                 <div>{{e.name}}</div>
                                 </v-flex>
                                 <v-flex xs12 md1>
@@ -395,7 +395,7 @@
                         v-for="e in profileData.projects"
                         :key="e.school"
                       >
-                        <span :slot="$vuetify.breakpoint.xs ? '' : 'opposite'" style="font-size: small;">{{e.startdate}} - {{e.enddate}}</span>
+                        <span :slot="$vuetify.breakpoint.xs ? '' : 'opposite'" style="font-size: small;">{{e.enddate}}</span>
                         <v-expansion-panels flat>
                           <v-expansion-panel >
                             <v-expansion-panel-header >
