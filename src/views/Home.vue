@@ -519,7 +519,7 @@
 
       
 
-      <v-card flat class="pt-8">
+    /*  <v-card flat class="pt-8">
          
         <v-layout row wrap >
           <v-flex xs12>
@@ -566,7 +566,7 @@
          
         </v-layout>
       </v-card>
- 
+ */
     </v-container>
    <br/><br/><br/><br/><br/><br/><br/>
   </div>

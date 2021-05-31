@@ -21,7 +21,7 @@
       </template>
       
       <v-toolbar class="primary"  height="50px">
-        <v-toolbar-title class="mx-6 pb-2 accent--text font-weight-medium">Si-VERSE</v-toolbar-title>
+        <v-toolbar-title class="mx-6 pb-2 accent--text font-weight-medium">Narendrakumar Hosamani</v-toolbar-title>
         <br/>
          
       </v-toolbar>
@@ -35,13 +35,6 @@
       
         <v-tabs align-with-title >
           <v-tab router to="/profile" >Profile</v-tab>
-          <v-tab router to="/chat" >Chat</v-tab>
-          <v-tab router to="/movie" >Movie Recommendation</v-tab>
-          <v-tab router to="/todo"  >To Do</v-tab>
-          <v-tab router to="/blog"  >Blog</v-tab>
-          <v-tab router to="/game"  >Games</v-tab>
-          
-          
         </v-tabs>
       </template>
     </v-app-bar>
