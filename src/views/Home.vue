@@ -596,7 +596,7 @@ export default {
   },
    methods:{
     async fetchRegisters(){
-      const res = await fetch('https://arcane-savannah-95240.herokuapp.com/profile')
+      const res = await fetch('https://narendrabe.herokuapp.com/profile')
       var data = await res.json() 
       console.log(this.$router)
       return data
