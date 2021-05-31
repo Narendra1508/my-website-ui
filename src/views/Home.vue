@@ -24,7 +24,7 @@
                 </v-layout>
 
                 <v-layout row wrap class="" align="center">
-                  <v-flex xs12 md8 >
+                  <v-flex xs12 md10 >
                     <br/>
                     <h3 class="font-22 capitalize ">Hallo!</h3>
                     <p class=" font-16 line-height-28">{{profileData.about}}</p>
@@ -50,8 +50,8 @@
                         :href="profileData.cv"><v-icon dark left>mdi-download</v-icon>Download CV</v-btn>
                   
                   </v-flex>
-                  <v-flex xs12 md4>
-                    <v-container >
+                  <v-flex xs12 md2>
+                    <v-container class="justify-center">
                     <v-avatar size="200" class="ml-10">
                       <img src="/final.jpg"/>
                     </v-avatar>
@@ -515,58 +515,6 @@
         </v-layout>
       </v-card>
 
-     
-
-      
-
-    /*  <v-card flat class="pt-8">
-         
-        <v-layout row wrap >
-          <v-flex xs12>
-            <v-card flat class="light-bg">
-              <v-container>
-                <v-layout row wrap>
-                  <v-flex xs12>
-                    <v-card flat>
-                      <div class="h2p  primary--text" style="text-align: center;">EXTRA-CURICULAR ACTIVITIES</div>
-                      <div class="horizontal-line"><div class="top"></div><div class="bottom"></div></div>
-                    </v-card>
-                  </v-flex>
-                </v-layout>
-                <v-layout row wrap class=" pl-5" align="center">
-                        <v-flex xs12 md12 >
-                           
-                           <v-list dense>
-                                 
-                                  <v-list-item-group
-                                    v-model="selectedItem"
-                                    color="primary"
-                                  >
-                                    <v-list-item
-                                      v-for="i in profileData.activities"
-                                      :key="i"
-                                    >
-                                      <v-list-item-icon>
-                                        <v-icon small>mdi-chevron-right</v-icon>
-                                      </v-list-item-icon>
-                                      <v-list-item-content>
-                                        {{i.name}}
-                                        
-                                        
-                                      </v-list-item-content>
-                                    </v-list-item>
-                                  </v-list-item-group>
-                                </v-list>
-                        </v-flex>
-                        
-                </v-layout>
-              </v-container>
-            </v-card>
-          </v-flex>
-         
-        </v-layout>
-      </v-card>
- */
     </v-container>
    <br/><br/><br/><br/><br/><br/><br/>
   </div>
