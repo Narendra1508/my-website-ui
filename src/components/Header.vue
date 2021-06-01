@@ -34,7 +34,7 @@
       <template v-slot:extension >
       
         <v-tabs align-with-title >
-          <v-tab router to="/" >Profile</v-tab>
+          <v-tab router to="/profile" >Profile</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
