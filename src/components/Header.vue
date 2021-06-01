@@ -5,7 +5,7 @@
       color="primary"
       dark
       shrink-on-scroll
-      :src="`${this.$route.path}.jpg`"
+      :src="`${this}profile.jpg`"
       fade-img-on-scroll
       :height="$vuetify.breakpoint.xs ? 100 : 250"
       prominent 
@@ -34,7 +34,7 @@
       <template v-slot:extension >
       
         <v-tabs align-with-title >
-          <v-tab router to="/profile" >Profile</v-tab>
+          <v-tab router to="/" >Profile</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
