@@ -5,7 +5,7 @@
       color="primary"
       dark
       shrink-on-scroll
-      :src="`${this}profile.jpg`"
+      :src="`profile.jpg`"
       fade-img-on-scroll
       :height="$vuetify.breakpoint.xs ? 100 : 250"
       prominent 
