@@ -26,7 +26,7 @@
                 <v-layout row wrap class="" align="center">
                   <v-flex xs12 md10 >
                     <br/>
-                    <h3 class="font-22 capitalize ">Hallo!</h3>
+                    <h3 class="font-22 capitalize ">Hello!</h3>
                     <p class=" font-16 line-height-28">{{profileData.about}}</p>
                    
                     <v-card-title class="justify-center">
